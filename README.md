@@ -1,6 +1,6 @@
-# tester
+# Objective
 
-> This is a test for vue and store front api
+> This is a "sandbox" application to impliment VueJS and GraphQl.
 
 ## Build Setup
 
@@ -24,4 +24,4 @@ npm run unit
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
