@@ -24,4 +24,16 @@ npm run unit
 npm test
 ```
 
+## Configure API
 
+In src > core > data.service.js
+
+Add shopify name to URL.
+const STORE='https://XXXXXX.myshopify.com/api/graphql'
+
+Get Shopify token
+1. Manage private apps
+2. Choose private app or create new one
+3. Enable Storefront access token
+
+const TOKEN ='XXXXXXXXXXXXXXXX'
