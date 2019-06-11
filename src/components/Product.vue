@@ -14,8 +14,11 @@
     </div>
 
     <div>
-      <div> Name: {{featuredProduct.title}}</div>
-      <div> Description: {{featuredProduct.description}}</div>
+      <h3> Name</h3>
+      <div>{{featuredProduct.title}}</div>
+      <h3> Description</h3>
+      <div>{{featuredProduct.description}}</div>
+      <button class="button-primary margin-top-20">Add To Cart</button>
     </div>
 
 </div>

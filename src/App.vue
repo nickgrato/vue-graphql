@@ -26,8 +26,7 @@
 import axios from 'axios';
 import { GraphQLClient } from "graphql-request";
 import { DataService } from './core/services/data.service';
-const SLATE_STORE='https://XXXXXX.myshopify.com/api/graphql'
-const TOKEN ='XXXXXX'
+
 
 /**
  * Services
@@ -132,6 +131,10 @@ body{
 h3 a{
   text-decoration: none!important;
   color: #666;
+}
+
+.margin-top-20{
+  margin-top: 20px;
 }
 
 </style>
